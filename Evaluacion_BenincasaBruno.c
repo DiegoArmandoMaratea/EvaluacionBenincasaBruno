@@ -54,7 +54,7 @@ void ContadorAcen(){
         }
     for (int Pin = 0; Pin <= 4; Pin++)
     {
-    PTE->(0u >> ArrayPines[Pin]);
+    PTE->PSOR &(0u >> ArrayPines[Pin]);
     }
 
 }
